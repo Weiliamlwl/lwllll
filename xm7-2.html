@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" media="mediatype and (expressions)" href="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style type="text/css">
+    *{margin: 0px;padding: 0px;}
+    body{
+      background:url("img/rag.png") repeat-x, url("img/bg.png");
+    }
+    .inner{
+      width: 90%;
+      margin: 0 auto;
+    }
+    ul{list-style: none;}
+    a{
+      text-decoration: none;
+      color: #890101;
+    }
+    .mast{
+      float: left;
+      width: 32%;
+    }
+
+    .logo a{
+      padding-top: 11em;
+      padding-right: 4.5em;
+      margin-left: -2.5em;
+      background: url("img/logo-bg.png") 2em 5em no-repeat;
+      display: block;
+      height: 248px;
+      text-align: center;
+    }
+    .nav{
+      width: 65%;
+      float: left;
+      margin: 2em auto;
+    }
+    .nav li{
+      text-align: center;
+      margin: 1em;
+      border-bottom: 1px #333333 dashed;
+    }
+    .section{
+      float: right;
+      width: 66%;
+    }
+    .intro{
+      margin-top: 110px;
+    }
+    .section h2{
+      text-align: center;
+      margin-bottom: 0.25em;
+    }
+    .main ul li{
+      text-align: center;
+      float: left;
+      width: 30%;
+      margin: 1%;
+    }
+    .main ul li img{
+    	border-radius: 5px;
+      width: 100%;
+    }
+    .footer{
+      text-align: center;
+      padding: 40px 0 20px;
+      background: url("img/ornament.png") 50% 0 repeat-x;
+    }
+    @media screen and (min-width: 1024px){
+      .mast{
+        float: none;
+        width: auto;
+      }
+      .logo{
+        float: left;
+        width: 32%;
+      }
+      .nav{
+        float: right;
+      }
+      .nav li{
+        float: left;
+        width: 14%;
+        margin-right: 3%;
+      }
+      .section{
+        margin-top: 10px;
+      }
+      .main ul li {
+        width: 14%;
+      }
+    }
+    @media screen and (min-width: 410px) and (max-width: 768px){
+      .mast{
+        width: 414px;
+        float: none;
+        width: auto;
+      }
+      .logo{
+        float: none;
+      }
+      .logo a{
+        padding-top: 1em;
+        padding-right: 0;
+        margin-left: 0;
+        height: auto;
+        background: none;
+      }
+      .nav{
+        width: 100%;
+        float: left;
+      }
+      .nav li{
+        float: left;
+        width: 13%;
+      }
+      .intro,.main,.footer{
+      }
+      .section{
+        float: left;
+        margin: 1em auto;
+        width: 100%;
+      }
+      .main ul li {
+        width: 30%;
+      }
+    }
+    @media screen and (max-device-width: 414px){
+      .mast{
+        width: 414px;
+        float: none;
+        width: auto;
+      }
+      .logo{
+        float: none;
+      }
+      .logo a{
+        padding-top: 1em;
+        padding-right: 0;
+        margin-left: 0;
+        height: auto;
+        background: none;
+      }
+      .nav{
+        width: 100%;
+        float: left;
+      }
+      .nav li{
+        float: left;
+        width: 10%;
+      }
+      .intro,.main,.footer{
+      }
+      .section{
+        float: left;
+        margin: 1em auto;
+        width: 100%;
+      }
+      .main ul li {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <div class="inner">
+    <div class="mast">
+      <div class="logo">
+        <a href="#"><img src="img/logo.png"></a>
+      </div>
+    <ul class="nav">
+      <li><a href="#">大师作品</a></li>
+      <li><a href="#">旅游摄影</a></li>
+      <li><a href="#">技法学院</a></li>
+      <li><a href="#">热门摄影</a></li>
+      <li><a href="#">摄影配件</a></li>
+    </ul>
+    </div>
+    <div class="section intro">
+      <div>
+        <h2>“关于我们”</h2>
+        <p>“WU YU ZE”在为广大摄影用户提供专业，丰富的摄影资讯的同时，
+          为器材厂商和经销商提供卓越有效的互联网营销解决方案，
+          围绕“摄像生活”为用户提供互动交流、二手摄影器材交易平台，以及提供
+          专业的摄影培训课程和高品质的影像输出等服务。
+        </p>
+      </div>
+    </div>
+    <div class="section main">
+      <h2>领先的摄像生活分享平台</h2>
+      <ul>
+        <li><a href="#"><img src="img/01.jpg"><span>都市情怀</span></a></li>
+        <li><a href="#"><img src="img/02.jpg"><span>特色建筑</span></a></li>
+        <li><a href="#"><img src="img/03.jpg"><span>微距世界</span></a></li>
+        <li><a href="#"><img src="img/04.jpg"><span>唯美生态</span></a></li>
+        <li><a href="#"><img src="img/05.jpg"><span>别样视角</span></a></li>
+        <li><a href="#"><img src="img/06.jpg"><span>自由旅行</span></a></li>
+      </ul>
+    </div>
+    <div class="section footer">
+      <p>Illustrations by <a href="#">dx</a>,words by <a href="#">wf</a>.</p>
+      <p>What remains is by <a href="#">wyz</a>.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
